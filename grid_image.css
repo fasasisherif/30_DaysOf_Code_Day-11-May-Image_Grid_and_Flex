@@ -1,0 +1,141 @@
+body{
+				padding:0;
+				margin:0;
+				background-color:#f4f4f4;
+				font-family:"Baloo Da 2";
+				}
+.topic,.last,.places,.geektutor,.cities,.hope,.contact,.know,.good{
+				text-align:center;
+				color:#5900cc;
+				}
+.topic,.good{
+				background-color:#5900cc;
+				margin-to:1.5pc;
+				font-size:40px;
+				padding:35px;
+				color:white;
+				}
+.one,.two,.three,.four,.five,.six{
+				width:90%;
+				background-color:#5900cc;
+				padding:5px;
+				margin:2pc auto;
+				border:2.5px double #aeaeae;
+				border-radius:5px;
+				}
+.last,.places,.geektutor,.cities,.hope,.know{
+				font-size:25px;
+				padding:10px;
+				color:#f4f4f4;
+				}
+.contact{
+				font-size:22px;
+				padding:5px;
+				color:#f4f4f4;
+				}
+.row1,.row2{
+		   width:90%;
+				background-color:#aa00ff;
+				display:grid;
+				grid-template-columns:1fr 1fr;
+				grid-template-rows:1fr 1fr;
+				justify-items:center;
+				margin:auto;
+				padding:10px;
+				border-radius:5px;
+		}
+.last01,.last02,.last03,.last04,.last05,.last06{
+				width:90%;
+				padding:10px;
+				}
+.last1,.last2,.last3,.last4,.last5,.last6{
+				width:100%;
+				padding:3px;
+				border-radius:5px;
+				background-color:#dbdbdb;
+				}
+.last0001,.last0002,.last0003,.last0004,.last0005,.last0006{
+				width:90%;
+				padding:10px;
+				}
+.last001,.last002,.last003,.last004,.last005,.last006{
+				width:100%;
+				padding:3px;
+				border-radius:5px;
+				background-color:#dbdbdb;
+				}
+.icons1,.icons2{
+				width:70%;
+				display: grid;
+	   	grid-template-columns:1fr;
+	    	grid-template-rows:1fr 1fr 1fr;		
+				margin:auto;
+				}
+.icons1{
+		text-align:center;
+		margin:auto;
+		width:35%;
+		}
+.six{
+				margin-bottom:2pc;
+				color:#f4f4f4;
+				}
+.program{
+		width:17%;
+		margin:auto;
+		paddin:20px;
+		}
+.icon{
+		width:100%;
+		}
+.good{
+		font-size:35px;
+		}
+.me{
+		text-align:center;
+		color:#f4f4f4;
+		}
+a:link{
+		color:lightgreen;
+		}	
+a:visited{
+		color:red;
+		}
+a:hover{
+		color:hotpink;
+		}
+a:active{
+		color:lightblue;
+		}		
+	
+	
+			
+		
+@media (min-width:768px){
+.flex1{
+		display: grid;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr;		
+		width:60%;
+		}
+.flex2{
+		display:grid;
+		width:40%;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr 1fr;		
+		}
+.flex3{
+		display: flex;
+		margin:auto;
+		}
+.three,.four{
+		margin:.5pc;
+		}
+.flex4{
+		display: grid;
+		grid-template-columns:1fr;
+		grid-template-rows:1fr;		
+		width:40%;		
+		margin:auto;
+		}
+}
